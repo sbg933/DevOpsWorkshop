@@ -74,5 +74,5 @@ brackets는 현대적인 텍스트 편집기로, 집중적 인 시각 도구 및
 ![](images/brackets/12.brackets.done.png)
 
 
-[DevOps Lab02로 이동합니다](02_DevOpsLab.md) 
+## [DevOps Lab02로 이동합니다](02_DevOpsLab.md) 
 

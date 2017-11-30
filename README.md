@@ -3,13 +3,11 @@
 
 최종 업데이트 : 2017 년 12 월 01 일 
 
-## 마이크로 서비스 랩
+이 Workshop에서는 Microserivces 환경을 준비하고 Oracle Application Container Cloud Service를 사용하여 Mircoserivces를 개발하는 방법을 보여줍니다. 
 
-
-이 랩에서는 Microserivces 환경을 준비하고 Oracle Application Container Cloud Service를 사용하여 Mircoserivces를 개발하는 방법을 보여줍니다. 
+또한 Developer Cloud Service를 사용하여 빌드 자동화 및 자동 배포 (CI / CD) 과정을 실습합니다.
 
 ### 소개
-
 
 마이크로 서비스 아키텍처에 대한 표준은 없지만 업계에서는 주로 아래에 언급된 마이크로 서비스 아키텍처가 따라야 할 몇 가지 디자인 요소와 특성에 부합해야 합니다. 
 
@@ -73,15 +71,11 @@ Oracle Application Container Cloud Service에는 다음과 같은 주요 기능�
 
 ## 오늘 Practice에 관해서
 
-
-개발자 클라우드 서비스를 사용하여 다음 1 시간 동안 Application Container Cloud에 2 개의 마이크로 서비스를 만들고 배포합니다 :smile:. 
+Developer Cloud Service를 사용하여 다음 1 시간 동안 Application Container Cloud에 1개의 마이크로 서비스를 만들고 배포합니다 
 - 기존 3rd party Git Repository 활용 
 - 개발자 클라우드 서비스에서 빌드 및 배포 작업 만들기 
-- 개발자 클라우드 서비스와 IDE 사용 
-- 응용 프로그램에서 데이터베이스 클라우드 서비스 활용 
-- 응용 프로그램 컨테이너 클라우드 서비스에 배포 
+- 개발자 클라우드 서비스와 IDE 사용  
+- 클라우드 서비스에 배포 
 
-![](images/000.todaylab.png)   
-
-
-## [Start The Lab](MicroservicesLab.md)
+## [Lab 01로 이동](01_DevOpsLab.md)
+## [Lab 02로 이동](02_DevOpsLab.md)
