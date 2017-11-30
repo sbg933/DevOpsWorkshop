@@ -3,7 +3,7 @@
 ## 소개
 
 
-이 Lab은 Oracle Developer Cloud와 Container기반의 Application Container Cloud Service를 사용하여 DevOps 자동화 과정의 핵심 부분인 CI(Continuous Integration) / CD (Continuous Delivery) 실습을 위한 Lab입니다. 
+이 Lab은 `Oracle Developer Cloud`와 Container기반의 `Application Container Cloud Service`를 사용하여 `DevOps` 자동화 과정의 핵심 부분인 `CI(Continuous Integration)` / `CD (Continuous Delivery)` 실습을 위한 Lab입니다. 
 
 ## 목표
 
