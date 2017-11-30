@@ -49,7 +49,7 @@
 
 - 생성한 폴더를 엽니다.
 
-![](images/112.openfolder.png)
+![](images/113.openfolder.png)
 
 - **Developer Cloud Service**로 돌아가세요. 화면 우측의 **REPOSITORY** 부분에서 본인이 생성한 Repository를 찾습니다.
 - **HTTP**를 클릭하여 Git HTTP URL을 표시한 후 url을 클립보드로 복사합니다.
