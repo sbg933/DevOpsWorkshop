@@ -3,7 +3,7 @@
 ## 소개
 
 
-이 Lab은 `Oracle Developer Cloud`와 Container기반의 `Application Container Cloud Service`를 사용하여 `DevOps` 자동화 과정의 핵심 부분인 `CI(Continuous Integration)` / `CD (Continuous Delivery)` 실습을 위한 Lab입니다. 
+이 Lab은 **Oracle Developer Cloud**와 Container기반의 **Application Container Cloud Service**를 사용하여 **DevOps** 자동화 과정의 핵심 부분인 **CI(Continuous Integration) / CD (Continuous Delivery)** 실습을 위한 Lab입니다. 
 
 ## 목표
 
@@ -27,20 +27,20 @@
 
 - 오라클 클라우드 서비스 포탈(https://cloud.oracle.com)에 접속합니다.
 
-- 상단 메뉴의 "Sign In" 메뉴늘 클릭합니다.
+- 상단 메뉴의 **"Sign In"** 메뉴늘 클릭합니다.
 ![](images/000.signin.png)
  
-- 첫번재 리스트 박스에서 `Traditional Cloud Account`를 선택하고, 두번째 데이터 센터 선택 리스트 박스에서 `부여 받은 클라우드 계정의 데이터 센터`를 선택하여 `My Services` 버튼을 클릭합니다.
+- 첫번재 리스트 박스에서 **Traditional Cloud Account**를 선택하고, 두번째 데이터 센터 선택 리스트 박스에서 **부여 받은 클라우드 계정의 데이터 센터**를 선택하여 **My Services** 버튼을 클릭합니다.
 ![](images/000.login.png)
 
-- Identity Domain 명 입력 화면에서 각자 부여받은 클라우드 계정의 Identity Domain 명을 입력하고 `Go`를 클릭합니다.
+- Identity Domain 명 입력 화면에서 각자 부여받은 클라우드 계정의 Identity Domain 명을 입력하고 **Go**를 클릭합니다.
 ![](images/000.identity.png)
 
-- 부여 받은 클라우드 계정의 ID와 패스워드를 입력하고 `Sign In`을 클릭합니다.
+- 부여 받은 클라우드 계정의 ID와 패스워드를 입력하고 **Sign In**을 클릭합니다.
 
 ![](images/000.idpw.png)
 
-- 로그인 후에 My Services Dashboaard로 이동 됩니다. 대시보드 내의 가용 서비스들 중에 developer####으로 되어있는 서비스를 찾아 우측 하단의 햄버거 메뉴를 클릭하면 `Open Service Console` 메뉴가 나옵니다. 개발자 클라우드 서비스 콘솔로 이동합니다. 
+- 로그인 후에 My Services Dashboaard로 이동 됩니다. 대시보드 내의 가용 서비스들 중에 **developer####**으로 되어있는 서비스를 찾아 우측 하단의 햄버거 메뉴를 클릭하면 **Open Service Console** 메뉴가 나옵니다. 개발자 클라우드 서비스 콘솔로 이동합니다. 
 
 ![](images/001.dashboard.png)
 
@@ -50,7 +50,7 @@
 ![](images/001.landing.png)
 
 
--. 이미 Developer Cloud 페이지에 접속되어 있는 경우왼쪽 탐색 패널의 `Project`를 클릭하여 프로젝트 기본 페이지로 이동할 수 있습니다.
+-. 이미 Developer Cloud 페이지에 접속되어 있는 경우왼쪽 탐색 패널의 **Project**를 클릭하여 프로젝트 기본 페이지로 이동할 수 있습니다.
 
 -. **REPOSITORIES**섹션의 오른쪽에서 **New Repository**를 클릭하여 새로운 Git 저장소를 만듭니다.
 
@@ -84,13 +84,13 @@
 ### 기본 빌드 프로세스 만들기
 
 
-- 탐색 패널에서 **Build**를 클릭하여 빌드 페이지에 액세스하고 **[+ New Job]**을 클릭하십시오. 
+- 탐색 패널에서 **Build**를 클릭하여 빌드 페이지에 액세스하고 **+ New Job** 을 클릭하십시오. 
 
 ![](images/005.navibuild.png)
 
 
 - New Job (새 작업) 팝업 창에서 Job Name에 대해 다음 처럼 입력하고 **Save**를 클릭하십시오. 
-	- **Job Name:** `Rep##_build` -- 부여받은 Repository명을 prefix로 사용합니다.
+	- **Job Name:** **Rep##_build** -- 부여받은 Repository명을 `prefix`로 사용합니다.
 
 ```diff
 - 복사해서 붙여넣기를 할 때 불필요한 스페이스가 들어갈 수 도 있으니 주의하시기 바랍니다.
@@ -137,7 +137,7 @@
 ![](images/013.save.png)
 
 
-- 빌드는 1-2 분 내에 자동으로 시작됩니다. 자동으로 시작되지 않으면 **[Build Now]**버튼을 클릭하십시오. 
+- 빌드는 1-2 분 내에 자동으로 시작됩니다. 자동으로 시작되지 않으면 **Build Now**버튼을 클릭하십시오. 
 
 ![](images/014.buildnow.png)
 
@@ -160,14 +160,14 @@
 ### 기본 배포 프로세스 만들기 
 
 
-- **Deploy**를 클릭하여 배포 페이지에 액세스하고 **[+ New Configuration]**버튼을 클릭하십시오. 
+- **Deploy**를 클릭하여 배포 페이지에 액세스하고 **+ New Configuration**버튼을 클릭하십시오. 
 
 ![](images/018.navideploy.png)
 
 
 - 다음 데이터를 입력하십시오. 
 
-	- **Configuration Name:** `a##` (예 : a01)
+	- **Configuration Name:** `a##` (예 : **a01**)
 	- **Application Name:** `a##` (예 : a01) `## 부분의 번호룰 Rep## 번호와 같게 생성하세요. 할당 받은 번호를 사용합니다.` 
 
 
@@ -189,14 +189,14 @@
 	- `부여 받은 클라우드 계정 정보를 사용합니다.`
 	- **Data Center:** `your datacenter, e.g. em2, em3, etc`
 	- **Identity Domain:** `your identity domain`, e.g. gse00012345, etc
-	- **Username:** `username to login to MyService`, e.g. lisa.jones, etc - that is the username you are using.
+	- **Username:** `username to login to MyService`, (예: lisa.jones)
 	- **Password:** `password of the cloud user`, that is the password you are using
 
 
 ![](images/021.accsconn.png)
 
 
-- 성공하면 **[Use Connection]**버튼을 클릭하십시오. 
+- 성공하면 **Use Connection**버튼을 클릭하십시오. 
 
 ![](images/022.useconn.png)
 
@@ -213,9 +213,9 @@
 ![](images/023.deploynodejs.png)
 
 
-- **Job**에서 선택하십시오.이 이름은 위의 빌드 작업과 일치해야합니다 (예 :`Rep##_build`). 
+- **Job**에서 선택하십시오.이 이름은 위의 빌드 작업과 일치해야합니다 (예 : **`Rep##_build`** ). 
 
-- **Artifact**에서 선택하십시오.이 이름은 위의 아카이브 아티펙트와 소스 코드의 package.json과 일치해야합니다 (예 :`target/jet-quickstart-client-dist.zip`). 
+- **Artifact**에서 선택하십시오.이 이름은 위의 아카이브 아티펙트와 일치해야합니다 (예 :`target/jet-quickstart-client-dist.zip`). 
 
 ![](images/024.deployjobname.png)
 
@@ -245,7 +245,7 @@
 
 ## Login to Oracle Application Container Cloud Service
 
-- Lab 초반의 Cloud 로그인 단계를 거쳐 클라우드의 MyService 페이지로 이동합니다. 여기서 **Dashboard** 화면이 보이도록 위치 시킵니다.
+- **Lab 초반의 Cloud 로그인 단계**를 거쳐 클라우드의 MyService 페이지로 이동합니다. 여기서 **Dashboard** 화면이 보이도록 위치 시킵니다.
 
 ![](images/028.dashboard.png)
 
@@ -268,7 +268,7 @@
 ![](images/039.result.png)
 
 
-# 축하합니다. 첫 마이크로 서비스가 완성되었습니다. 
+## 축하합니다. 첫 마이크로 서비스가 완성되었습니다. 
 
 [이제 다음 Lab으로 이동합니다.](../02_DevOpsLab.md)
 
