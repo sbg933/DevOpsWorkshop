@@ -136,11 +136,50 @@
 
 ![](images/131.developerui.png)
 
+- 좌측 사이드 메뉴의 **Code**를 선택하면 Repository 화면으로 이동합니다.
+- 만약 현재 Repository가 자신의 Repository가 아니라면 **Repository 선택 List 박스**에서 자신의 Repository를 선택합니다.
 
+![](images/132.selectrepo.png)
 
+- Brackets에서 Push 할때 입력한 주석 **header change**가 보일 것입니다. 이것을 클릭하면 변경된 소스로 바로 이동합니다.
 
-# 축하합니다.! Microservice Lab을 완료했습니다.
+![](images/132.codeview.png)
 
+- 변경된 소스가 다음과 같이 보이면 정상입니다.
 
-[go back to the Cloud Test Drive Main Page](../README.md) 
+![](images/132.changedcode.png)
+
+- 이전 Lab에서 신규 code가 push되면 자동으로 빌드가 되게 **Triger**를 설정해 두었기 때문에 **Build**에 가면 빌드가 진행중이거나 이미 완료 되었을 것입니다.
+
+- 좌측 메뉴의 **Build**를 선택하여 Build 화면으로 이동합니다.
+- 자신의 빌드명 (에 : **Rep01_build** )를 클릭합니다.
+
+![](images/132.buildcheck.png)
+
+- 새로운 빌드가 진행중이거나 완료되었을 것입니다. 현재 진행중이라면 완료될 때까지 기다리면 됩니다. **Status** 아이콘이 **Green**이면 완료입니다.
+
+![](images/132.secondbuild.png)
+
+- 빌드가 완료되었으면 **Deploy** 메뉴로 이동합니다. 빌드가 정상적으로 완료되면 **자동으로 배포**가 되도록 이전 Lab에서 구성해 두었기 때문에 여기서는 아무런 작업이 필요 없습니다.
+- 새롭게 빌드된 산출물로 배포가 이미 완료되었거나 진행중일 수 있습니다. 아직 완료가 되지 않았다면 잠시 기다리면 됩니다. 
+
+![](images/132.redeploy.png)
+
+- 코드 변경사항이 잘 반영되었는지 서비스 url로 가서 확인 합니다.
+
+- 이전 Lab에서 서비스 url을 기록하고 있었다면 웹 브라우저에서 바로 해당 url로 들어가면 됩니다.
+
+- 만약 이 부분을 잘 모르겠다면 이전 Lab의 `Login to Oracle Application Container Cloud Service` 부분을 살펴보면 됩니다.
+
+- ACCS 서비스 url의 패턴은 다음과 같습니다.
+- https://a##-{your-identity-domain}.apaas.{your-data-center}.oraclecloud.com
+
+- Home Content Area 부분에 변경 내용이 잘 나온다면 모든 과정이 완료된 것입니다.
+![](images/132.alldone.png)
+
+## 축하합니다. CI/CI 과정 자동화 과정을 마쳤습니다. 
+
+[이전 Lab으로 이동합니다.](01_DevOpsLab.md)
+
+[첫 화면으로 이동합니다.](README.md) 
 
