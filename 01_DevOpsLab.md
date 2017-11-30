@@ -25,7 +25,7 @@
 ## 초기 Git 저장소 생성
 
 
-- 오라클 클라우드 서비스 포탈(https://cloud.oracle.com)에 접속합니다.
+- 오라클 클라우드 서비스 포탈 https://cloud.oracle.com 에 접속합니다.
 
 - 상단 메뉴의 **"Sign In"** 메뉴늘 클릭합니다.
 ![](images/000.signin.png)
@@ -270,6 +270,6 @@
 
 ## 축하합니다. 첫 마이크로 서비스가 완성되었습니다. 
 
-[이제 다음 Lab으로 이동합니다.](../02_DevOpsLab.md)
+[이제 다음 Lab으로 이동합니다.](02_DevOpsLab.md)
 
-[첫 화면으로 이동합니다.](../README.md) 
+[첫 화면으로 이동합니다.](README.md) 
