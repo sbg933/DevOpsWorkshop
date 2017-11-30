@@ -139,7 +139,7 @@
 - 좌측 사이드 메뉴의 **Code**를 선택하면 Repository 화면으로 이동합니다.
 - 만약 현재 Repository가 자신의 Repository가 아니라면 **Repository 선택 List 박스**에서 자신의 Repository를 선택합니다.
 
-![](images/132.selectrepo.png)
+![](images/133.selectrepo.png)
 
 - Brackets에서 Push 할때 입력한 주석 **header change**가 보일 것입니다. 이것을 클릭하면 변경된 소스로 바로 이동합니다.
 
