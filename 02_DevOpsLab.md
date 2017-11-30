@@ -134,7 +134,7 @@
 
 - 변경 사항을 개발자 클라우드 서비스로 푸시해야 합니다. 원하는 경우 **Developer Cloud Service**로 이동하여 푸시 된 코드를 확인할 수 있습니다.
 
-![](images/131.developerui.png)
+![](images/132.developerui.png)
 
 - 좌측 사이드 메뉴의 **Code**를 선택하면 Repository 화면으로 이동합니다.
 - 만약 현재 Repository가 자신의 Repository가 아니라면 **Repository 선택 List 박스**에서 자신의 Repository를 선택합니다.
