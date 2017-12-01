@@ -19,6 +19,10 @@ brackets는 현대적인 텍스트 편집기로, 집중적 인 시각 도구 및
 ![](images/brackets/01.brackets.save.png)
 
 
+- 설치 파일을 실행합니다. 
+
+![](images/brackets/00.bracketsconfirm.png)
+
 - `Brackets.Release.1.10.msi`가 저장된 곳의 하드 디스크 디렉토리에서 열고 설치 프로그램을 실행하십시오. 대상 brackets 대상 폴더를 선택하고 `다음`버튼을 클릭하십시오. 
 
 ![](images/brackets/02.brackets.install.png)

@@ -11,8 +11,6 @@ Git은 컴퓨터 파일의 변경 사항을 추적하고 여러 사람 사이의
 ## 소프트웨어 설치
 다음의 설치 과정은 Windows를 기반으로 설명하지만 다른 OS에서도 비슷한 설치 과정을 거칩니다.
 
-![](images/gitclient/00.png)
-
 
 - [예]를 클릭하여 설치를 계속합니다. 
 
@@ -23,41 +21,41 @@ Git은 컴퓨터 파일의 변경 사항을 추적하고 여러 사람 사이의
 
 ![](images/gitclient/02.png)
 
-
 - 설치를위한 대상 폴더를 제공하십시오 - **기본값이 권장됩니다** 그리고 [다음]을 클릭하십시오. 
 
 ![](images/gitclient/03.png)
-
 
 - 설치할 구성 요소를 선택할 수 있습니다.**기본**을 유지하고 [다음]을 클릭하십시오. 
 
 ![](images/gitclient/04.png)
 
+- Start Menu 선택  - **기본값이 권장됩니다** 그리고 [다음]을 클릭하십시오. 
 
-- 시작 메뉴 폴더 이름을 제공 할 수 있습니다.**기본**을 유지하고 [다음] 
+![](images/gitclient/04_0.png)
 
-![](images/gitclient/05.png)
+- 디폴트 에디터를 선택하세요 - **기본값이 권장됩니다** 그리고 [다음]을 클릭하십시오. 
 
+![](images/gitclient/04_1.png)
 
 - Windows 명령 프롬프트에서 **Use Git from the windows Command Prompt**를 선택하고 [다음]을 클릭하십시오. 
 
 ![](images/gitclient/06.png)
 
-
 - 원하는 SSL 라이브러리를 선택하십시오 - **기본값**을 유지하고 [다음] 
 
 ![](images/gitclient/07.png)
 
+- HTTTPS Transport backend를 선택하십시오 - **기본값**을 유지하고 [다음] 
+
+![](images/gitclient/07_1.png)
 
 - CRLF 스타일에 대해 **기본값**을 유지하고 [다음] 
 
 ![](images/gitclient/08.png)
 
-
 - 터미널 에뮬레이터의 **기본**을 유지하고 [다음] 
 
 ![](images/gitclient/09.png)
-
 
 - 추가 옵션을 보려면 **기본**을 유지하고 [설치] 
 
