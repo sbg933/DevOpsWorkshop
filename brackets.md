@@ -27,7 +27,6 @@ brackets는 현대적인 텍스트 편집기로, 집중적 인 시각 도구 및
 
 ![](images/brackets/02.brackets.install.png)
 
-
 - `설치`버튼을 클릭하여 설치를 진행하십시오. 
 
 ![](images/brackets/03.brackets.install1.png)
@@ -77,6 +76,21 @@ brackets는 현대적인 텍스트 편집기로, 집중적 인 시각 도구 및
 
 ![](images/brackets/12.brackets.done.png)
 
+- Git Extension이 잘 설치되었고, Git 설정이 잘 되어있는지 다시 한번 살펴 봅니다. 노란색으로 표시한 아이콘을 클릭합니다.
+
+![](images/brackets/12.gitsettings.png)
+
+- 기본 설정으로 둡니다.
+
+![](images/brackets/12.gitsettings1.png)
+
+- **Git configuration** 탭으로 이동하여 git 경로를 확인합니다. 이전 Git 설치 과정에서 설치했던 경로를 입력하면 됩니다. 설정을 변경하였다면 **Save**룰 선택합니다.
+
+![](images/brackets/12.gitsettings2.png)
+
+- 설정이 변경되면 재시작 합니다.
+
+![](images/brackets/10.brackets.restart.png)
 
 ## [DevOps Lab02로 이동합니다](02_DevOpsLab.md) 
 

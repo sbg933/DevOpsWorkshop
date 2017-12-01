@@ -71,6 +71,5 @@ Git은 컴퓨터 파일의 변경 사항을 추적하고 여러 사람 사이의
 
 ![](images/gitclient/12.png)
 
-
 ## [DevOps Lab02로 이동합니다](02_DevOpsLab.md) 
 
