@@ -180,9 +180,9 @@
 - 다음 정보를 입력하고 **Test Connection**를 클릭하십시오. 
 
 	- `부여 받은 클라우드 계정 정보를 사용합니다.`
-	- **Data Center:** `your datacenter, e.g. em2, em3, etc`
-	- **Identity Domain:** `your identity domain`, e.g. gse00012345, etc
-	- **Username:** `username to login to MyService`, (예: lisa.jones)
+	- **Data Center:** `your datacenter, (em2 또는 us2)`
+	- **Identity Domain:** `your identity domain`, (gse000 으로 시작하는 정보)
+	- **Username:** `lisa.jones`
 	- **Password:** `password of the cloud user`, that is the password you are using
 
 
