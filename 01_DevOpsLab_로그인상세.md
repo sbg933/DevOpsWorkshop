@@ -25,18 +25,37 @@
 ## 초기 Git 저장소 생성
 
 
-- 제공된 `클라우드 환경 정보`의 **Developer Cloud Service URL** 링크를 클릭합니다. **Identity Domain** 입력 부분이 자동으로 채워져 있을 것입니다. **Go**를 클릭하여 다음 로그인 페이지로 이동합니다.
+- 오라클 클라우드 서비스 포탈 https://cloud.oracle.com 에 접속합니다.
 
-![](images/000.directaccess.png)
+- 상단 메뉴의 **"Sign In"** 메뉴늘 클릭합니다.
+![](images/000.signin.png)
+ 
+- 첫번재 리스트 박스에서 **Traditional Cloud Account**를 선택하고, 두번째 데이터 센터 선택 리스트 박스에서 **부여 받은 클라우드 계정의 데이터 센터**를 선택하여 **My Services** 버튼을 클릭합니다.
 
-로그인을 위해서 다음 페이지가 보일 것입니다.
+- 현 실습 환경에서는 다음 두가지 중 한가지 DataCenter가 부여되었으니 자신의 DataCenter가 무엇인지 확인후 로그인 합니다.
+    
+	- `EMEA Commercial 2 (em2)`
+	- `US Commercail 2 (us2)`
+
+![](images/000.login.png)
+
+- Identity Domain 명 입력 화면에서 각자 부여받은 클라우드 계정의 Identity Domain 명을 입력하고 **Go**를 클릭합니다.
+
+   - 제공된 환경 정보의 `gse000`으로 시작하는 정보입니다.
+
+![](images/000.identity.png)
 
 - 부여 받은 클라우드 계정의 ID와 패스워드를 입력하고 **Sign In**을 클릭합니다.
 
-    - ID : lisa.jones
-	- Password : 제공된 `클라우드 환경정보`의 **Password** 컬럼을 참고합니다.
+  - ID : lisa.jones
+  - Password : 부여된 환경정보의 `PW` 컬럼을 확인합니다
 
 ![](images/000.idpw.png)
+
+- 로그인 후에 My Services Dashboaard로 이동 됩니다. 대시보드 내의 가용 서비스들 중에 **developer####**으로 되어있는 서비스를 찾아 우측 하단의 햄버거 메뉴를 클릭하면 **Open Service Console** 메뉴가 나옵니다. 개발자 클라우드 서비스 콘솔로 이동합니다. 
+
+![](images/001.dashboard.png)
+
 
 - Developer Cloud에 접속하면 프로젝트가 생성되어 있습니다. 강사에게 부여받은 프로젝트를 선택하여 해당 프로젝트로 이동합니다. (예: `Project`**01**) 
 
