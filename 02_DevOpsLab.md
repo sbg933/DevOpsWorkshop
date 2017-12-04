@@ -163,14 +163,15 @@
 
 ![](images/132.redeploy.png)
 
-- 코드 변경사항이 잘 반영되었는지 서비스 url로 가서 확인 합니다.
+- 배포명 우측의 화살표가 Green으로 변경되면 정상입니다.
+변경된 서비스를 확인하기 위하여 다시 Application Container Cloud Service(ACCS) 콘솔로 갑니다.
+아래 Yellow로 마킹된 링크를 클릭하면 이동합니다.
 
-- 이전 Lab에서 서비스 url을 기록하고 있었다면 웹 브라우저에서 바로 해당 url로 들어가면 됩니다.
+![](images/028.accessaccs.png)
 
-- 만약 이 부분을 잘 모르겠다면 이전 Lab의 `Login to Oracle Application Container Cloud Service` 부분을 살펴보면 됩니다.
+- ACCS 콘솔에서 본인의 application을 찾습니다.(예 : `a01`)** 애플리캐에션 하단의 URL 부분을 클릭하여 애플리케이션을 엽니다.
 
-- ACCS 서비스 url의 패턴은 다음과 같습니다.
-- https://a##-{your-identity-domain}.apaas.{your-data-center}.oraclecloud.com
+![](images/037.url.png)
 
 - Home Content Area 부분에 변경 내용이 잘 나온다면 모든 과정이 완료된 것입니다.
 ![](images/132.alldone.png)
