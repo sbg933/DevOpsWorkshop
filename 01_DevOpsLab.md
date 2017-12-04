@@ -243,15 +243,10 @@
 
 ![](images/027.deploysuccess.png)
 
-## Login to Oracle Application Container Cloud Service
+배포가 완료되면 배포명 좌측의 아이콘이 Green으로 변경됩니다.
+배포된 서비스를 확인하기 위하여 **Deploy to ACCS** 옆의 링크를 클릭합니다. 아래 이미지의 Yellow로 마킹된 부분입니다.
 
-- **Lab 초반의 Cloud 로그인 단계**를 거쳐 클라우드의 MyService 페이지로 이동합니다. 여기서 **Dashboard** 화면이 보이도록 위치 시킵니다.
-
-![](images/028.dashboard.png)
-
-- Application Container Cloud Service (ACCS) 의 햄버거 버튼을 누르고 **Open Service Console** 를 선택하십시오.
-
-![](images/029.accsgoto.png)
+![](images/028.accessaccs.png)
 
 - ACCS Service Console 이 보여질 것입니다. 그리고 **a## (예 : `a01`)** 라는 새로운 애플리케이션이 배포된 것을 볼 수 있습니다.
 
