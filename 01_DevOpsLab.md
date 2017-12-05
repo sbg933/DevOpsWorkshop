@@ -14,7 +14,7 @@
 ## 필수 아티팩트
 
 
-- 강사가 제공한 각자에게 할당된 Oracle Public Cloud 계정을 확인하세요. 
+- 강사가 제공한 각자에게 할당된 [Oracle Public Cloud 계정](env/env.md)을 확인하세요. 
 
 ## 특별주의 사항
 
@@ -25,7 +25,7 @@
 ## 초기 Git 저장소 생성
 
 
-- 제공된 `클라우드 환경 정보`의 **Developer Cloud Service URL** 링크를 클릭합니다. **Identity Domain** 입력 부분이 자동으로 채워져 있을 것입니다. **Go**를 클릭하여 다음 로그인 페이지로 이동합니다.
+- 제공된 [`클라우드 환경 정보`](env/env.md)의 **Developer Cloud Service URL** 링크를 클릭합니다. **Identity Domain** 입력 부분이 자동으로 채워져 있을 것입니다. **Go**를 클릭하여 다음 로그인 페이지로 이동합니다.
 
 ![](images/000.directaccess.png)
 
