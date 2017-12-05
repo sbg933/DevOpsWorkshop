@@ -1,3 +1,6 @@
+아래 환경 정보에서 자신의 이름을 찾아, 제공된 환경 정보를 이용합니다.
+다른 사람에게 할당된 정보를 사용하지 않도록 조심 합니다.
+
 | #  | 이름  | Data Center | Identity Domain | ID         | Password      | Developer Cloud URL                                                                      | Project       | Repository Name | app name | 
 |---|--------|-------|-------------|-----------|--------------|--------------------------|---------|--------|----------| 
 | 1  | 김동욱 | em2         | gse00010236     | lisa.jones | cLean@1Dash   | [Developer Cloud URL](https://developer.em2.oraclecloud.com/developer67813-gse00010236)  | Project**01** | Rep**01** | a**01**  | 
