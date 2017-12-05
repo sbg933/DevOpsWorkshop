@@ -34,7 +34,7 @@
 - 부여 받은 클라우드 계정의 ID와 패스워드를 입력하고 **Sign In**을 클릭합니다.
 
     - ID : lisa.jones
-	- Password : 제공된 `클라우드 환경정보`의 **Password** 컬럼을 참고합니다.
+	- Password : 제공된 [`클라우드 환경 정보`](env/env.md)의 **Password** 컬럼을 참고합니다.
 
 ![](images/000.idpw.png)
 
@@ -179,7 +179,7 @@
 
 - 다음 정보를 입력하고 **Test Connection**를 클릭하십시오. 
 
-	- `부여 받은 클라우드 계정 정보를 사용합니다.`
+	- 부여 받은 [`클라우드 환경 정보`](env/env.md)를 사용합니다.
 	- **Data Center:** `your datacenter, (em2 또는 us2)`
 	- **Identity Domain:** `your identity domain`, (gse000 으로 시작하는 정보)
 	- **Username:** `lisa.jones`
