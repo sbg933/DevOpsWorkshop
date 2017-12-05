@@ -1,7 +1,7 @@
 | #  | 이름  | Data Center | Identity Domain | ID         | Password      | Developer Cloud URL                                                                      | Project       | Repository Name | app name | 
-|---|--------|-------|-------------|-----------|--------------|--------------------------|----------|---------|----------| 
-| 1  | 김동욱 | em2         | gse00010236     | lisa.jones | cLean@1Dash   | [Developer Cloud URL](https://developer.em2.oraclecloud.com/developer67813-gse00010236)  | Project**01** | Rep**01**       | a**01**  | 
-| 2  | 김민정 | em2         | gse00010236     | lisa.jones | cLean@1Dash   | [Developer Cloud URL](https://developer.em2.oraclecloud.com/developer67813-gse00010236)  | Project**01** | Rep**02**       | a**02**  | 
+|---|--------|-------|-------------|-----------|--------------|--------------------------|---------|--------|----------| 
+| 1  | 김동욱 | em2         | gse00010236     | lisa.jones | cLean@1Dash   | [Developer Cloud URL](https://developer.em2.oraclecloud.com/developer67813-gse00010236)  | Project**01** | Rep**01** | a**01**  | 
+| 2  | 김민정 | em2         | gse00010236     | lisa.jones | cLean@1Dash   | [Developer Cloud URL](https://developer.em2.oraclecloud.com/developer67813-gse00010236)  | Project**01** | Rep**02**   | a**02**  | 
 | 3  | 김상민 | em2         | gse00010236     | lisa.jones | cLean@1Dash   | [Developer Cloud URL](https://developer.em2.oraclecloud.com/developer67813-gse00010236)  | Project**01** | Rep**03**       | a**03**  | 
 | 4  | 김성욱 | em2         | gse00010236     | lisa.jones | cLean@1Dash   | [Developer Cloud URL](https://developer.em2.oraclecloud.com/developer67813-gse00010236)  | Project**01** | Rep**04**       | a**04**  | 
 | 5  | 김성현 | em2         | gse00010236     | lisa.jones | cLean@1Dash   | [Developer Cloud URL](https://developer.em2.oraclecloud.com/developer67813-gse00010236)  | Project**01** | Rep**05**       | a**05**  | 
